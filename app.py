@@ -1,6 +1,11 @@
 from flask import Flask, render_template, request, jsonify
 from chat import get_response  # now only uses local NN
 from flask_cors import CORS
+import os
+import nltk
+
+# Make sure NLTK looks in the virtual environment
+nltk.data.path.append(os.path.join("venv", "nltk_data"))
 
 app = Flask(__name__)
 CORS(app)
