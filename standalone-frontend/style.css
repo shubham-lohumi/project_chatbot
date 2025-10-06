@@ -29,23 +29,28 @@ body {
 
 /* CONTENT IS CLOSE */
 .chatbox__support {
-    display: flex;
+    display: none;           /* hide initially */
     flex-direction: column;
-    background: #eee;
-    width: 300px;
-    height: 350px;
-    z-index: -123456;
-    opacity: 0;
-    transition: all .5s ease-in-out;
+    background: #f9f9f9;
+    width: 350px;
+    height: 450px;
+    box-shadow: 0px 0px 15px rgba(0,0,0,0.1);
+    border-radius: 20px 20px 0 0;
+    position: fixed;
+    bottom: 30px;            /* move closer to the bottom */
+    right: 30px;
+    z-index: 1000;           /* make clickable */
+    transition: all 0.3s ease-in-out;
+    opacity: 0;               /* start hidden */
+    transform: translateY(20px); /* slide effect */
 }
 
-/* CONTENT ISOPEN */
-.chatbox--active {
-    transform: translateY(-40px);
-    z-index: 123456;
-    opacity: 1;
-
+.chatbox__support.chatbox--active {
+    display: flex;           /* show when active */
+    opacity: 1;              /* fully visible */
+    transform: translateY(0); /* slide up */
 }
+
 
 /* BUTTON */
 .chatbox__button {

@@ -18,6 +18,27 @@
       ]
     },
     {
+  "tag": "java",
+  "patterns": ["What is Java?", "Explain Java", "Define Java programming"],
+  "responses": ["Java is a high-level, object-oriented programming language designed to run on any platform with the JVM."]
+},
+{
+  "tag": "devops",
+  "patterns": ["What is DevOps?", "Explain DevOps", "Define DevOps"],
+  "responses": ["DevOps combines software development and IT operations to deliver software faster with automation and collaboration."]
+},
+{
+  "tag": "machine_learning",
+  "patterns": ["What is ML?", "Explain machine learning", "Define ML"],
+  "responses": ["Machine Learning is a field of AI where computers learn patterns from data and make predictions without explicit programming."]
+},
+{
+  "tag": "chatbot",
+  "patterns": ["What is a chatbot?", "Explain chatbot", "Define chatbot"],
+  "responses": ["A chatbot is software that simulates conversation with humans, either using predefined rules or AI-based understanding."]
+},
+
+    {
       "tag": "goodbye",
       "patterns": ["Bye", "See you later", "Goodbye"],
       "responses": [
@@ -68,6 +89,12 @@
         "Shipping takes 2-4 days"
       ]
     },
+    {
+  "tag": "china_president",
+  "patterns": ["Who is the president of China?", "China's president?", "Current president of China"],
+  "responses": ["The current president of China is Xi Jinping."]
+}
+,
     {
       "tag": "funny",
       "patterns": [
