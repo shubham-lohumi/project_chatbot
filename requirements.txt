@@ -1,5 +1,6 @@
-setuptools>=65.5.0
-wheel>=0.38.0
+setuptools==75.1.0
+wheel==0.45.0
+pip==25.3.1  
 Flask==3.0.3
 gunicorn==21.2.0
 torch==2.5.0
