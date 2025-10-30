@@ -1,7 +1,7 @@
 # from flask import Flask, render_template, request, jsonify
 # from chat import get_response  # now only uses local NN
 # from flask_cors import CORS
-# import os
+import os
 # import json
 # import torch
 # import nltk
@@ -72,4 +72,6 @@ def predict():
     return jsonify({"answer": response})
 
 if __name__ == "__main__":
-    app.run(host="0.0.0.0", port=5000, debug=True)
+    if __name__ == "__main__":
+        port = int(os.environ.get("PORT", 5000))
+        app.run(host="0.0.0.0", port=port)
