@@ -2,6 +2,10 @@
 # from chat import get_response  # now only uses local NN
 # from flask_cors import CORS
 import os
+import nltk
+nltk.download('wordnet', quiet=True)
+nltk.download('omw-1.4', quiet=True)
+
 # import json
 # import torch
 # import nltk
