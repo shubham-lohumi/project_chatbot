@@ -1,0 +1,326 @@
+{
+  "intents": [
+    {
+    "tag": "promotion_policy",
+    "patterns": [
+      "How do promotions work?",
+      "Tell me about the promotion process",
+      "When can I get promoted?",
+      "Who decides promotions?"
+    ],
+    "responses": [
+      "Promotions are based on performance reviews, experience, and management recommendations.",
+      "The promotion process is discussed during annual appraisals and depends on your role, contribution, and growth potential."
+    ]
+  },
+  {
+    "tag": "employee_benefits",
+    "patterns": [
+      "What are the employee benefits?",
+      "Tell me about company benefits",
+      "Do we get health insurance?",
+      "Any wellness programs for employees?"
+    ],
+    "responses": [
+      "Employees receive benefits like health insurance, paid leave, and performance bonuses.",
+      "The company also offers wellness programs, mental health support, and skill development courses."
+    ]
+  },
+  {
+    "tag": "shift_timings",
+    "patterns": [
+      "What are the shift timings?",
+      "Do we have night shifts?",
+      "Is there a flexible shift option?",
+      "When does the morning shift start?"
+    ],
+    "responses": [
+      "Regular office hours are 9 AM to 6 PM. However, shift timings depend on the project.",
+      "Night and rotational shifts are applicable for support and client-facing teams."
+    ]
+  },
+  {
+    "tag": "travel_policy",
+    "patterns": [
+      "Tell me about the travel policy",
+      "Can I travel for work?",
+      "How do I book business travel?",
+      "What are the travel reimbursement rules?"
+    ],
+    "responses": [
+      "All official travel must be approved by your reporting manager before booking.",
+      "Travel expenses are reimbursed based on company policy after valid receipts are submitted."
+    ]
+  },
+  {
+    "tag": "expense_policy",
+    "patterns": [
+      "What expenses are reimbursable?",
+      "Tell me about expense claim policy",
+      "Can I claim food or cab expenses?"
+    ],
+    "responses": [
+      "You can claim work-related expenses such as travel, meals, or client meetings, provided they are pre-approved.",
+      "Expense claims must be submitted within 7 working days of the transaction with proper bills."
+    ]
+  },
+  {
+    "tag": "security_access",
+    "patterns": [
+      "How do I get access to the server room?",
+      "My access card is not working",
+      "Who manages security access?"
+    ],
+    "responses": [
+      "For any access-related issues, please contact the Admin or Security team.",
+      "Server room and restricted area access requires approval from your manager and admin clearance."
+    ]
+  },
+  {
+    "tag": "health_insurance",
+    "patterns": [
+      "Do we have medical insurance?",
+      "Tell me about health insurance policy",
+      "How to claim health benefits?",
+      "What is the TPA name?"
+    ],
+    "responses": [
+      "Yes, the company provides group health insurance for employees and their dependents.",
+      "Insurance claims can be made through the TPA. Details are available on the HR portal under 'Insurance Benefits'."
+    ]
+  },
+  {
+    "tag": "resignation_process",
+    "patterns": [
+      "How do I resign?",
+      "What is the notice period?",
+      "Tell me about the resignation policy",
+      "Where do I submit my resignation?"
+    ],
+    "responses": [
+      "You can submit your resignation through the HR portal under 'Exit Process'.",
+      "The standard notice period is 30 days unless specified otherwise in your contract."
+    ]
+  },
+  {
+    "tag": "joining_bonus",
+    "patterns": [
+      "Do we get a joining bonus?",
+      "Tell me about joining bonus policy",
+      "When is joining bonus paid?"
+    ],
+    "responses": [
+      "Joining bonuses are applicable for certain roles based on the offer letter terms.",
+      "If applicable, your joining bonus will be credited with your first or second salary cycle."
+    ]
+  },
+  {
+    "tag": "probation_period",
+    "patterns": [
+      "What is the probation period?",
+      "How long is the probation?",
+      "When does probation end?"
+    ],
+    "responses": [
+      "The standard probation period is 3 months from the date of joining.",
+      "After successful completion, your status changes to a confirmed employee."
+    ]
+  },
+  {
+    "tag": "internal_job_posting",
+    "patterns": [
+      "Can I apply for internal openings?",
+      "What is the internal job posting policy?",
+      "How do I apply for another role?"
+    ],
+    "responses": [
+      "Internal job postings are shared via the HR portal. You can apply through the 'Career Opportunities' section.",
+      "Employees are encouraged to explore internal roles after completing 6 months in their current position."
+    ]
+  },
+  {
+    "tag": "employee_id_creation",
+    "patterns": [
+      "When will I get my employee ID?",
+      "How is the employee ID created?",
+      "Can I change my employee ID?"
+    ],
+    "responses": [
+      "Employee IDs are auto-generated during onboarding and shared in the welcome email.",
+      "Employee IDs cannot be changed once created."
+    ]
+  },
+  {
+    "tag": "performance_bonus",
+    "patterns": [
+      "Do we get a performance bonus?",
+      "When is performance bonus given?",
+      "How is performance bonus calculated?"
+    ],
+    "responses": [
+      "Performance bonuses are based on individual performance and company profitability.",
+      "They are usually credited along with the annual appraisal payout."
+    ]
+  },
+    {
+      "tag": "greeting",
+      "patterns": ["Hello", "Hi", "Good morning", "Good afternoon", "Hey there"],
+      "responses": ["Hello! How can I assist you today?", "Good day! How may I help you?"]
+    },
+    {
+      "tag": "goodbye",
+      "patterns": ["Bye", "Goodbye", "See you later", "Talk to you soon"],
+      "responses": ["Goodbye! Have a productive day.", "See you later! Stay safe and motivated."]
+    },
+    {
+      "tag": "thanks",
+      "patterns": ["Thank you", "Thanks a lot", "Much appreciated", "Thanks"],
+      "responses": ["You're welcome!", "Glad I could help.", "Anytime!"]
+    },
+    {
+      "tag": "leave_policy",
+      "patterns": ["What is the leave policy?", "How many leaves can I take?", "Tell me about annual leave", "How do I apply for leave?"],
+      "responses": [
+        "Employees are entitled to 20 paid leaves per year, including casual and earned leaves. You can apply through the HR portal.",
+        "You can apply for leave via the company’s HR system under the 'Leave Management' section."
+      ]
+    },
+    {
+      "tag": "office_timing",
+      "patterns": ["What are the office hours?", "When does the office open?", "What time should I report to work?", "Office timing details"],
+      "responses": [
+        "Office hours are from 9:00 AM to 6:00 PM, Monday through Friday.",
+        "Working hours are 9 AM to 6 PM with a lunch break from 1 PM to 2 PM."
+      ]
+    },
+    {
+      "tag": "work_from_home",
+      "patterns": ["Can I work from home?", "Is remote work allowed?", "Tell me about the work from home policy"],
+      "responses": [
+        "Work-from-home is allowed with prior manager approval, depending on the project requirements.",
+        "Remote work options are available for certain departments or special cases. Please contact HR for details."
+      ]
+    },
+    {
+      "tag": "salary",
+      "patterns": ["When is salary credited?", "What is the salary date?", "Tell me about the salary cycle"],
+      "responses": [
+        "Salary is credited to employees’ accounts on the last working day of every month.",
+        "You can check your payslips and payroll details in the HR portal under 'Payroll'."
+      ]
+    },
+    {
+      "tag": "attendance",
+      "patterns": ["How do I mark attendance?", "Where can I check attendance?", "Tell me about attendance policy"],
+      "responses": [
+        "Attendance is automatically recorded through the biometric system or remote login tracker.",
+        "You can view your attendance records on the HR portal under the 'Attendance' tab."
+      ]
+    },
+    {
+      "tag": "holiday_list",
+      "patterns": ["List of holidays", "What are the company holidays?", "Tell me about upcoming holidays"],
+      "responses": [
+        "You can view the official holiday list for this year on the HR portal under 'Holidays 2025'.",
+        "The company holiday calendar is available on the internal HR dashboard."
+      ]
+    },
+    {
+      "tag": "it_support",
+      "patterns": ["I have a technical issue", "How to reset my password?", "My email is not working", "Laptop not turning on"],
+      "responses": [
+        "Please raise a support ticket via the IT Helpdesk on the intranet.",
+        "For password resets or login issues, contact the IT support team at it.support@company.com."
+      ]
+    },
+    {
+      "tag": "company_policy",
+      "patterns": ["Where can I find company policies?", "Tell me about company rules", "How to access the employee handbook?"],
+      "responses": [
+        "Company policies are available on the intranet under 'HR Documents'.",
+        "The employee handbook can be downloaded from the internal HR portal under the 'Resources' section."
+      ]
+    },
+    {
+      "tag": "training",
+      "patterns": ["How can I attend training?", "Are there any skill development programs?", "Tell me about training opportunities"],
+      "responses": [
+        "You can register for upcoming training sessions through the 'Learning & Development' section on the portal.",
+        "Monthly training and certification programs are shared via HR communication emails."
+      ]
+    },
+    {
+      "tag": "reimbursement",
+      "patterns": ["How to claim reimbursement?", "Tell me about travel reimbursement", "What is the reimbursement policy?"],
+      "responses": [
+        "Reimbursement claims can be submitted through the Finance portal with valid bills attached.",
+        "All reimbursements must be approved by your reporting manager before submission."
+      ]
+    },
+    {
+      "tag": "onboarding",
+      "patterns": ["Tell me about onboarding process", "What happens on joining day?", "What documents do I need for onboarding?"],
+      "responses": [
+        "On your joining day, HR will guide you through document verification and orientation.",
+        "Please bring your ID proof, address proof, academic certificates, and previous employment documents."
+      ]
+    },
+    {
+      "tag": "appraisal_policy",
+      "patterns": ["How does appraisal work?", "Tell me about performance review", "When are appraisals conducted?"],
+      "responses": [
+        "Performance appraisals are conducted annually based on your performance metrics and manager feedback.",
+        "Appraisals are usually held at the end of the fiscal year, followed by salary revisions where applicable."
+      ]
+    },
+    {
+      "tag": "hr_contact",
+      "patterns": ["How can I contact HR?", "Who is the HR manager?", "I need to talk to HR"],
+      "responses": [
+        "You can reach the HR team via hr@company.com or visit the HR department during working hours.",
+        "HR contact details are available in the company directory on the intranet."
+      ]
+    },
+    {
+      "tag": "project_support",
+      "patterns": ["Who assigns new projects?", "How to request project support?", "Who do I contact for project details?"],
+      "responses": [
+        "Project assignments are managed by your reporting manager or the PMO team.",
+        "For support, contact your team lead or raise a ticket in the internal project management system."
+      ]
+    },
+    {
+      "tag": "internet_issue",
+      "patterns": ["Internet is not working", "Wi-Fi not connecting", "Slow internet speed"],
+      "responses": [
+        "Please restart your router and try again. If the issue persists, raise a ticket with IT support.",
+        "The IT department can assist you with connectivity problems at it.support@company.com."
+      ]
+    },
+    {
+      "tag": "id_card",
+      "patterns": ["How to get employee ID card?", "I lost my ID card", "How can I replace my ID badge?"],
+      "responses": [
+        "If you’ve lost your ID card, please inform HR immediately and request a replacement through the internal form.",
+        "New employees receive their ID cards during onboarding within the first week of joining."
+      ]
+    },
+    {
+      "tag": "cafeteria",
+      "patterns": ["What food options are available in cafeteria?", "Cafeteria timing", "Where is the canteen located?"],
+      "responses": [
+        "The cafeteria is open from 8:00 AM to 7:00 PM offering breakfast, lunch, and snacks.",
+        "You can find the cafeteria menu on the intranet under the 'Facilities' section."
+      ]
+    },
+    {
+      "tag": "payroll",
+      "patterns": ["What is payroll?", "Explain payroll", "Tell me about the payroll system", "How does payroll work?"],
+      "responses": [
+        "Payroll is the process of calculating and distributing employee salaries, bonuses, and deductions each month.",
+        "The payroll system ensures timely salary disbursement, tax deductions, and generation of payslips through the HR portal.",
+        "You can check your payroll details and payslips under the 'Payroll' tab on the HR system."
+      ]
+    }
+  ]
+}

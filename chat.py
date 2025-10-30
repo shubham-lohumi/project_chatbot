@@ -7,7 +7,7 @@ from nltk_utils import bag_of_words, tokenize
 device = torch.device('cuda' if torch.cuda.is_available() else 'cpu')
 
 # Load intents
-with open("intents.json", "r") as f:
+with open("data.json", "r") as f:
     intents = json.load(f)
 
 # Load trained model
@@ -51,15 +51,14 @@ def get_response(msg):
                 return random.choice(intent["responses"])
 
     # Otherwise fallback
-    return "I do not understand..."
-    
+    return "I'm not sure I understand. Could you rephrase?"
 
-if __name__ == "__main__":
-    print("Chatbot is running! (type 'quit' to exit)")
-    while True:
-        sentence = input("You: ")
-        if sentence.lower() == "quit":
-            break
+# if __name__ == "__main__":
+#     print("Chatbot is running! (type 'quit' to exit)")
+#     while True:
+#         sentence = input("You: ")
+#         if sentence.lower() == "quit":
+#             break
 
-        resp = get_response(sentence)
-        print(resp)
+#         resp = get_response(sentence)
+#         print(resp)
